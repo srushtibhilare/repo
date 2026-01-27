@@ -1,0 +1,61 @@
+      Web3 Trading Behavior vs Market Sentiment
+
+
+
+Submitted by: Srushti Pramod Bhilare
+Role: Data Science Candidate
+Date: 27-01-2026
+
+
+Objective
+The objective of this analysis is to understand how trader behavior such as 
+profitability, risk exposure, trading volume, and leverage changes under 
+different market sentiment conditions categorized as Fear and Greed.
+
+Data Overview
+
+This analysis uses two datasets:
+
+1. Hyperliquid Historical Trader Data containing trade-level information 
+   such as execution price, trade size, leverage, PnL, and fees.
+
+2. Bitcoin Fear & Greed Index dataset that classifies market sentiment 
+   into Fear and Greed on a daily basis.
+
+
+Key columns used in analysis:
+- closed_pnl (Profit and Loss)
+- risk_exposure
+- trade_volume
+- leverage
+- Classification (Market Sentiment)
+
+Figure 1: Trade Volume Distribution
+
+This chart shows the distribution of trading volume across all trades.
+High concentration of volume indicates periods of aggressive trading activity,
+mostly observed during Greed sentiment.
+
+Figure 2: Daily PnL Trend
+
+The daily PnL trend highlights increased volatility during Greed periods,
+while Fear periods show relatively stable but lower returns.
+
+Key Findings
+
+• Traders tend to take higher risk and larger position sizes during Greed sentiment.
+• Fear periods show lower trading volume but comparatively better risk-adjusted returns.
+• Excessive leverage during Greed leads to higher losses and volatility.
+• Risk buckets clearly separate profitable and non-profitable trading behavior.
+
+
+Conclusion
+
+Market sentiment plays a significant role in shaping trader behavior.
+Greed-driven markets encourage aggressive and high-risk trades, often 
+resulting in unstable returns. In contrast, Fear periods favor disciplined 
+trading with controlled risk.
+
+Understanding these patterns can help traders design smarter strategies 
+by adjusting leverage, position sizing, and risk exposure based on market sentiment.
+
